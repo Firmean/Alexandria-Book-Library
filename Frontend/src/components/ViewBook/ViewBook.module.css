@@ -1,0 +1,13 @@
+#outerwrapper{
+    width: 90%;
+    margin: 20px auto;
+    background: #fcfcfc;
+    padding: 15px;
+    border-radius: 10px;
+    border: 0.5px solid #d1d1d1;
+}
+
+#bookicon{
+    width: 80%;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+#outerwrapper {
+    display: 100vw;
+    height: fit-content;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+  }

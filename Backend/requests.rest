@@ -1,0 +1,49 @@
+GET http://localhost:3000/user/allUsers
+
+###
+
+POST http://localhost:3000/book/addBook
+Content-Type: application/json
+
+{
+    "isbn": "1234567sdb",
+    "title": "The Lord of the Rings",
+    "author_name": "Tolkien",
+    "synopsis": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien.",
+    "pageCount": 1178,
+    "filepath_pdf": "filepath",
+    "price": 100
+}
+
+###
+
+POST http://localhost:3000/book/deleteBook
+Content-Type: application/json
+
+{
+    "isbn": "last_attempt"
+}
+
+###
+
+POST http://localhost:3000/book/updateBook
+Content-Type: application/json
+
+{
+    "isbn": "isbn2",
+    "title": "The Lord of the Rings",
+    "author_name": "Tolkien",
+    "synopsis": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien.",
+    "pageCount": 1178,
+    "filepath_pdf": "filepath",
+    "price": 100,
+    "oldISBN": "isbn1"
+}
+
+###
+
+GET http://localhost:3000/book/allBooks
+
+###
+
+GET http://localhost:3000/book/getBookPath/a23

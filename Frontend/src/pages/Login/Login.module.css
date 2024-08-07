@@ -1,0 +1,16 @@
+.outerwrapper {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.errMsg{
+    composes: errMsg from "../../shared.css";
+}
+.signup_link{
+    color: blue;
+    text-decoration: none;
+}
+.signup_link:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
